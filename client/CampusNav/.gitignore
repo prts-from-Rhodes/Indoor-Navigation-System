@@ -1,0 +1,61 @@
+# Unity 工程根目录的 .gitignore（必须放在 Unity 工程根，即 Assets/ 的同级）
+# 参考 https://github.com/github/gitignore/blob/main/Unity.gitignore
+# 注意：以 / 开头的规则是相对「本文件所在目录」，不是仓库根目录。
+
+.utmp/
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Mm]emory[Cc]aptures/
+/[Rr]ecordings/
+
+# Unity 版本控制 (Plastic SCM) 的本地工作区信息
+.plastic/
+
+*.log
+
+# 自动生成的 IDE 工程文件
+*.csproj
+*.unityproj
+*.sln
+*.slnx
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+.vsconfig
+.vs/
+.idea/
+.vscode/
+.gradle/
+ExportedObj/
+.consulo/
+
+# Unity 生成的 meta 附属文件
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+
+sysinfo.txt
+mono_crash.*
+tmpinst-dir.stamp
+.dirstamp
+
+# 打包产物
+/*_BackUpThisFolder_ButDontShipItWithYourGame/
+/*_BurstDebugInformation_DoNotShip/
+*.apk
+*.aab
+*.obb
+*.unitypackage
+*.unitypackage.meta

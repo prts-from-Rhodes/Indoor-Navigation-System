@@ -148,3 +148,20 @@ application-local.yml
 *.local.json
 *.keystore
 *.jks
+
+# ============================================================
+# Unity 工程位于子目录 client/CampusNav/，
+# 上方 Unity 模板里的 /Library/、/UserSettings/ 等以 / 开头的规则
+# 只对「仓库根目录」生效，匹配不到子目录，因此这里显式补一份。
+# 同时该子目录内另有 client/CampusNav/.gitignore 作为主规则。
+# ============================================================
+client/CampusNav/[Ll]ibrary/
+client/CampusNav/[Tt]emp/
+client/CampusNav/[Oo]bj/
+client/CampusNav/[Bb]uild/
+client/CampusNav/[Bb]uilds/
+client/CampusNav/[Ll]ogs/
+client/CampusNav/[Uu]ser[Ss]ettings/
+client/CampusNav/[Mm]emory[Cc]aptures/
+client/CampusNav/[Rr]ecordings/
+client/CampusNav/.plastic/
