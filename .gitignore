@@ -136,3 +136,15 @@ crashlytics-build.properties
 
 # Auto-generated cache in Assets folder
 /[Aa]ssets/[Ss]ceneDependencyCache*
+
+# IDE files
+.idea/
+*.iml
+/target/
+/out/
+
+# Local Configration
+application-local.yml
+*.local.json
+*.keystore
+*.jks
