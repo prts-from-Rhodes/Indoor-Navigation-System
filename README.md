@@ -19,7 +19,7 @@ MaSQL -> 后端工程 -> Unity工程\
 四.演示账号\
 admin/123456\
 teacher/123456\
-student/123456\
+student/123456
 
 # 真机基线
 | 项 | 值 |
